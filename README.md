@@ -1,9 +1,15 @@
 # price-estimator
 
-Key Points
+This repository contains a Python-based data analysis project focused on monthly natural gas prices from October 2020 to September 2024. The project showcases comprehensive data manipulation, analysis, and visualization techniques using Pandas, NumPy, and Matplotlib.
 
--The CSV is monthly natural gas prices from Oct 2020 → Sep 2024.
--Interpolation converts monthly → daily for precise date queries.
--Forecast predicts future prices for 12 months using Holt-Winters method.
--Query function allows any date within historical + forecast.
--Visualization shows historical, interpolated, and forecast together.
+Key features include:
+
+Data Interpolation: Converts monthly prices into daily values for precise date-based queries.
+
+Forecasting: Uses the Holt-Winters method to predict natural gas prices for the next 12 months.
+
+Flexible Querying: Retrieve the price for any specific date, including historical and forecasted periods.
+
+Visualization: Combines historical, interpolated, and forecasted data into a single plot to provide clear insights and trends.
+
+This project serves as a practical example of time-series analysis, forecasting, and visualization in Python.
